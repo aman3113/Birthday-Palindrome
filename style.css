@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 40px;
+  font-size: 3rem;
+  font-weight: 600;
+  background: rgb(39, 8, 243);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  width: 70%;
+  margin: 20px auto;
+}
+
+p {
+  padding: 20px;
+  font-size: 20px;
+}
+
+label,
+input {
+  width: 80%;
+  padding: 20px;
+  display: block;
+}
+
+label {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+input {
+  margin: 0 20px;
+  font-size: 15px;
+}
+
+.button {
+  margin: 20px;
+  display: flex;
+  justify-content: left;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 15px;
+}
+
+.output {
+  font-size: 20px;
+  padding: 20px;
+}
+
+span {
+  font-weight: 600;
+}
